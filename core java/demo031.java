@@ -2,7 +2,7 @@ import java.util.HashSet;
 class HashSetDemo1 {
 	void HSetMethod() {
 		//We can add any type of element here...
-		HashSet hashSet = new Hashset();
+		HashSet hashSet = new HashSet();
 		hashSet.add(100);
 		hashSet.add("PRASUNAMBA");
 		hashSet.add(9999.99);
