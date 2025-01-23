@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ltcode001 {
+public class LTcode001 {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
@@ -24,7 +24,7 @@ public class Ltcode001 {
         System.out.print("Enter a number: ");
         int userInput = scanner.nextInt();
         
-        Ltcode001 solution = new Ltcode001();
+        LTcode001 solution = new LTcode001();
         
         if (solution.isPalindrome(userInput)) {
             System.out.println(userInput + " is a palindrome.");
