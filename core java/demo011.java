@@ -10,7 +10,7 @@ class Child extends Parent{
         System.out.println("Sons full name is "+super.Name+". "+Son);
     }
 }
-public class Demo011 {
+public class demo011 {
     public static void main(String[] args) {        
         Parent pobj = new Parent();
         pobj.parentDetails();
